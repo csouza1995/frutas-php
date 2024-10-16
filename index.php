@@ -1,0 +1,3 @@
+<?php
+
+// load Frutas
