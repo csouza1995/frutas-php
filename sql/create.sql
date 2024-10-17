@@ -1,0 +1,10 @@
+CREATE TABLE frutas (
+	id BIGINT NOT NULL AUTO_INCREMENT,
+	fruta_nome VARCHAR(255) NOT NULL,
+	fruta_valor DECIMAL(10,4) NOT NULL,
+	criado_em DATETIME NOT null DEFAULT CURRENT_DATE(),
+	removido_em DATETIME DEFAULT NULL,
+	
+	PRIMARY KEY(id),
+	UNIQUE(fruta_nome)
+);
